@@ -3,6 +3,12 @@
 
 ### Source
 Origin https://github.com/donwa/goindex
+Origin https://github.com/kulokenci/goindex-drive
+
+### Update
+- Removed Playback -> changed to direct Link
+- Translated titles (Title, Size, etc) to Spanish
+-
 
 ### Quick Deployment
 1. Open https://install.kenci.workers.dev/ (goindex-drive ver. 2.4)
