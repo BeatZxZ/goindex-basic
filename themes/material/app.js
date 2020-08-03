@@ -65,7 +65,6 @@ function nav(path) {
 		}
 	}
 	html += `<div class="mdui-toolbar-spacer"></div>
-    <a href="https://github.com/kulokenci/goindex-drive" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'GoIndex Drive on Github'}">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;">
         <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5
 	c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
@@ -215,7 +214,7 @@ function get_file(path, file, callback){
 	if("|bmp|jpg|jpeg|png|gif|".indexOf(`|${ext}|`) >= 0){
 		return file_image(path);
 	}
-}*/
+}
 
 // file display |html|php|css|go|java|js|json|txt|sh|md|
 function file_code(path){
@@ -371,7 +370,7 @@ document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.3/js/mdui
 function searchOnlyActiveDir() {
 	var e, t, n, l;
 	for (e = document.getElementById("searchInput").value.toUpperCase(), t = document.getElementById("list").getElementsByTagName("li"), l = 0; l < t.length; l++)((n = t[l].getElementsByTagName("a")[0]).textContent || n.innerText).toUpperCase().indexOf(e) > -1 ? t[l].style.display = "" : t[l].style.display = "none"
-}
+}*/
 
 // time conversion
 function utc2jakarta(utc_datetime) {
