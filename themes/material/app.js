@@ -193,7 +193,7 @@ function get_file(path, file, callback){
 
 
 // file display ?a=view
-function file(path){
+/*function file(path){
 	var name = path.split('/').pop();
 	var ext = name.split('.').pop().toLowerCase().replace(`?a=view`,"");
 	if("|html|php|css|go|java|js|json|txt|sh|md|".indexOf(`|${ext}|`) >= 0){
@@ -215,7 +215,7 @@ function file(path){
 	if("|bmp|jpg|jpeg|png|gif|".indexOf(`|${ext}|`) >= 0){
 		return file_image(path);
 	}
-}
+}*/
 
 // file display |html|php|css|go|java|js|json|txt|sh|md|
 function file_code(path){
